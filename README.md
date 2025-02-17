@@ -60,14 +60,10 @@ You can easily customize the appearance of the pop-up by editing the CSS. Here a
 - **Engagement**: It adds a dynamic, interactive feel to your website that can enhance engagement.
 - **Convenience**: This feature reduces the need for users to search for buttons or options elsewhere on the page.
 
-## Screenshots
+## Live Application
 
-_Include a screenshot of how the text selection pop-up looks on your webpage (optional)._
+Do check and test it out live here: https://text-selection-popup.vercel.app/
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### Enjoy implementing this feature and making your site more interactive!
