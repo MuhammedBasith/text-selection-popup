@@ -1,4 +1,5 @@
-document.addEventListener('mouseup', function(event) {
+// Function to show popup when text is selected
+function showPopup(event) {
     let selectedText = window.getSelection().toString(); // Get the selected text
     const chatPopup = document.getElementById('chat-popup'); // Get the chat popup element
 
@@ -24,7 +25,13 @@ document.addEventListener('mouseup', function(event) {
     } else {
         chatPopup.style.display = 'none';  // Hide the popup if no text is selected
     }
-});
+}
+
+// Mouseup event for desktop
+document.addEventListener('mouseup', showPopup);
+
+// Touchend event for mobile devices
+document.addEventListener('touchend', showPopup);
 
 // Handle click on the popup button
 document.getElementById('chat-popup').addEventListener('click', function() {
